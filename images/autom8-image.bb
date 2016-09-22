@@ -89,6 +89,7 @@ RPI_STUFF = " \
     bcm2835-tests \
     coapp \
     mosquitto \
+    gpiosis \
     omxplayer \
     pi-blaster \
     raspi2fb \
