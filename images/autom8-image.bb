@@ -122,5 +122,5 @@ ROOTFS_POSTPROCESS_COMMAND += " \
     disable_bootlogd ; \
  "
 
-export IMAGE_BASENAME = "console-image"
+export IMAGE_BASENAME = "autom8-image"
 
