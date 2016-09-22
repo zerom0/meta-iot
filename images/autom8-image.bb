@@ -86,6 +86,7 @@ CAN_TOOLS = " \
  "
 
 RPI_STUFF = " \
+    autom8 \
     bcm2835-tests \
     coapp \
     mosquitto \
