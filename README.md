@@ -6,7 +6,7 @@ This is a yocto layer for building a autonomous (serverless) distributed IoT app
 
 Inspired by http://www.jumpnowtek.com/rpi/Raspberry-Pi-Systems-with-Yocto.html
 
-### Fetch the poky repo and openambedded and raspberrypi layers
+### Fetch the poky repo and openembedded and raspberrypi layers
 
 	git clone -b krogoth git://git.yoctoproject.org/poky.git poky
 	cd poky
