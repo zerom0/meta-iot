@@ -6,9 +6,9 @@ LIC_FILES_CHKSUM = "file://LICENSE;md5=9741c346eef56131163e13b9db1241b3"
 
 PR = "r0"
 
-SRCREV = "06e35c2deb407529960684e3142533e81665e1b6"
+SRCREV = "${AUTOREV}"
 SRC_URI = " \
-    git://github.com/zerom0/CoAPP;branch=yocto;protocol=git \
+    git://github.com/zerom0/CoAPP;branch=development;protocol=git \
     file://0001-without_gtest.patch \
  "
 

@@ -8,7 +8,7 @@ PR = "r0"
 
 DEPENDS += "coapp"
 
-SRCREV = "457180411aaa85872fd96dfe0ee3f455435be791"
+SRCREV = "${AUTOREV}"
 SRC_URI = " \
     git://github.com/zerom0/autom8;branch=development;protocol=git \
  "
