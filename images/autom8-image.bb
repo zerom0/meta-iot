@@ -54,8 +54,6 @@ DEV_SDK_INSTALL = " \
 DEV_EXTRAS = " \
     ntp \
     ntp-tickadj \
-    serialecho \
-    spiloop \
  "
 
 EXTRA_TOOLS_INSTALL = " \
@@ -81,17 +79,12 @@ EXTRA_TOOLS_INSTALL = " \
     zip \
  "
 
-CAN_TOOLS = " \
-    canutils \
- "
-
 RPI_STUFF = " \
     autom8 \
     bcm2835-tests \
     coapp \
     mosquitto \
     gpiosis \
-    omxplayer \
     pi-blaster \
     raspi2fb \
     rpio \
@@ -101,7 +94,6 @@ RPI_STUFF = " \
  "
 
 IMAGE_INSTALL += " \
-    ${CAN_TOOLS} \
     ${CORE_OS} \
     ${DEV_SDK_INSTALL} \
     ${DEV_EXTRAS} \
